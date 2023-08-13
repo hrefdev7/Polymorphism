@@ -12,4 +12,5 @@ et elles doivent être implémentées par toute sous-classe concrète qui étend
 	
 
 	public abstract void displayInfo();
+	
 }
