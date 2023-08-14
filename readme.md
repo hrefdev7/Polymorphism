@@ -2,7 +2,7 @@
 <p>Le mot «polymorphisme» dérive de deux mots, à savoir 'Poly' ce qui signifie beaucoup et ' morphes »Signifiant des formes. Ainsi, le polymorphisme signifie de nombreuses formes. Dans un langage de programmation, nous pouvons dire qu'un objet peut prendre plusieurs formes
 
 .</p>  
-
+<img src="src/modelAbstract/Capture.jpg"> </p>
 <img src="src/img/1.PNG"> </p>
 
 <br>
