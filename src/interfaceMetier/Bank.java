@@ -3,10 +3,6 @@ package interfaceMetier;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-
-
 //Bank.java
 //Class Bank
 

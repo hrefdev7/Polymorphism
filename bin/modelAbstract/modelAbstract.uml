@@ -1,2 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4cWOIDq7Ee6nxts5fEGlrQ" name="modelAbstract"/>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_4cWOIDq7Ee6nxts5fEGlrQ" name="modelAbstract">
+    <eAnnotations xmi:id="_4xIyYDq7Ee6nxts5fEGlrQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_4xJZcDq7Ee6nxts5fEGlrQ" source="codegen">
+        <details xmi:id="_4xJZcTq7Ee6nxts5fEGlrQ" key="codegenDirectory" value="/Polymorphism/src"/>
+        <details xmi:id="_5FaZQDq7Ee6nxts5fEGlrQ" key="AssociatedSourceCode" value="/Polymorphism/src/modelAbstract/Python.java;2341606820/1;/Polymorphism/src/modelAbstract/C.java;859147029/1;/Polymorphism/src/modelAbstract/Java.java;2698531196/1;/Polymorphism/src/modelAbstract/Language.java;2275886256/1;/Polymorphism/src/modelAbstract/App.java;1769552739/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_47dzEDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_47eaIDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_47eaITq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_47fBMDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_47fBMTq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_47foQDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_47foQTq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_47gPUDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_47hdcDq7Ee6nxts5fEGlrQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_47mV8Dq7Ee6nxts5fEGlrQ" name="modelAbstract">
+      <packagedElement xmi:type="uml:Class" xmi:id="_48NZ8Dq7Ee6nxts5fEGlrQ" name="python" visibility="package">
+        <generalization xmi:id="_5AtfcDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BNOsDq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_48P2MDq7Ee6nxts5fEGlrQ">
+          <language>java</language>
+          <body>System.out.println(&quot;python Programming Language&quot;);&#xD;
+	    System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+	  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_48P2MDq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BNOsDq7Ee6nxts5fEGlrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_48V80Dq7Ee6nxts5fEGlrQ" name="C" visibility="package">
+        <generalization xmi:id="_5AutkDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BPD4Dq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_48ZAIDq7Ee6nxts5fEGlrQ">
+          <language>java</language>
+          <body>System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+	    System.out.println(&quot;C Programming Language&quot;);&#xD;
+	    System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+	  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_48ZAIDq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BPD4Dq7Ee6nxts5fEGlrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_48tJMDq7Ee6nxts5fEGlrQ" name="Java" visibility="package">
+        <generalization xmi:id="_5Av7sDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BPq8Dq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_48wMgDq7Ee6nxts5fEGlrQ">
+          <language>java</language>
+          <body>System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+		    System.out.println(&quot;Java Programming Language&quot;);&#xD;
+		    System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+		  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_48wMgDq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BPq8Dq7Ee6nxts5fEGlrQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_481sEDq7Ee6nxts5fEGlrQ" name="Language" isAbstract="true">
+        <ownedOperation xmi:id="_484IUDq7Ee6nxts5fEGlrQ" name="displayInfo" isAbstract="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_485WcDq7Ee6nxts5fEGlrQ" name="JavaScript" visibility="package">
+        <generalization xmi:id="_5BI9QDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BT8YDq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_49cwEDq7Ee6nxts5fEGlrQ">
+          <language>java</language>
+          <body>System.out.println(&quot;JavaScript Programming Language&quot;);&#xD;
+	    System.out.println(&quot;*********************************&quot;);&#xD;
+	  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_49cwEDq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BT8YDq7Ee6nxts5fEGlrQ"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_489A0Dq7Ee6nxts5fEGlrQ" name="Php" visibility="package">
+          <eAnnotations xmi:id="_489n4Dq7Ee6nxts5fEGlrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_489n4Tq7Ee6nxts5fEGlrQ" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_5BHvIDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BQ5EDq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_48-O8Dq7Ee6nxts5fEGlrQ">
+            <language>java</language>
+            <body>System.out.println(&quot;Php Programming Language&quot;);&#xD;
+	    System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+	  </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_48-O8Dq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BQ5EDq7Ee6nxts5fEGlrQ"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_49DugDq7Ee6nxts5fEGlrQ" name="Css" visibility="package">
+          <eAnnotations xmi:id="_49DugTq7Ee6nxts5fEGlrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_49EVkDq7Ee6nxts5fEGlrQ" key="sameFile"/>
+          </eAnnotations>
+          <generalization xmi:id="_5BIWMDq7Ee6nxts5fEGlrQ" general="_481sEDq7Ee6nxts5fEGlrQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BSHMDq7Ee6nxts5fEGlrQ" name="displayInfo" specification="_49GKwDq7Ee6nxts5fEGlrQ">
+            <language>java</language>
+            <body>System.out.println(&quot;css Programming Language&quot;);&#xD;
+	    System.out.println(&quot;*********************************&quot;);&#xD;
+&#xD;
+	  </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_49GKwDq7Ee6nxts5fEGlrQ" name="displayInfo" method="_5BSHMDq7Ee6nxts5fEGlrQ"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_49U0QDq7Ee6nxts5fEGlrQ" name="Main" visibility="package">
+          <eAnnotations xmi:id="_49WCYDq7Ee6nxts5fEGlrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_49WCYTq7Ee6nxts5fEGlrQ" key="sameFile"/>
+          </eAnnotations>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5BTVUDq7Ee6nxts5fEGlrQ" name="main" specification="_49X3kDq7Ee6nxts5fEGlrQ">
+            <ownedParameter xmi:id="_5BTVUTq7Ee6nxts5fEGlrQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5BTVUjq7Ee6nxts5fEGlrQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>System.out.println(&quot;Le polymorphisme en Java fait référence&quot;&#xD;
+					+ &quot; à la capacité d'une classe à prendre plusieurs formes&quot;);&#xD;
+			List&lt;Language> lbk=new ArrayList&lt;Language>();&#xD;
+&#xD;
+	    // create an object of Java class&#xD;
+	    Java j1 = new Java();&#xD;
+	    j1.displayInfo();&#xD;
+lbk.add(j1);&#xD;
+	    // create an object of Language class&#xD;
+	    Language l1 = new python();&#xD;
+	    lbk.add(l1);&#xD;
+	    l1.displayInfo();&#xD;
+	    Language l12 = new Php();&#xD;
+	    l12.displayInfo();&#xD;
+	    lbk.add(l12);&#xD;
+	    Language l13 = new JavaScript();&#xD;
+	    l13.displayInfo();&#xD;
+	    lbk.add(l13);&#xD;
+	    Language l14 = new Css();&#xD;
+	    l14.displayInfo();&#xD;
+	    lbk.add(l14);&#xD;
+for(Language l:lbk) {&#xD;
+	    &#xD;
+&#xD;
+&#xD;
+	    &#xD;
+	    &#xD;
+	    &#xD;
+	  }&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_49X3kDq7Ee6nxts5fEGlrQ" name="main" isStatic="true" method="_5BTVUDq7Ee6nxts5fEGlrQ">
+            <ownedParameter xmi:id="_49YeoDq7Ee6nxts5fEGlrQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_49bh8Dq7Ee6nxts5fEGlrQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_47yjMDq7Ee6nxts5fEGlrQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_47zKQDq7Ee6nxts5fEGlrQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_5AwiwDq7Ee6nxts5fEGlrQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5A5FoDq7Ee6nxts5fEGlrQ" name="Iterator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5A-lMDq7Ee6nxts5fEGlrQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_4xKnkDq7Ee6nxts5fEGlrQ">
+      <eAnnotations xmi:id="_4xKnkTq7Ee6nxts5fEGlrQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_4xMcwDq7Ee6nxts5fEGlrQ" base_Package="_4cWOIDq7Ee6nxts5fEGlrQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_48RrYDq7Ee6nxts5fEGlrQ" base_Element="_48P2MDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_48UHoDq7Ee6nxts5fEGlrQ" base_Element="_48P2MDq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_48UHoTq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_48a1UDq7Ee6nxts5fEGlrQ" base_Element="_48ZAIDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_48d4oDq7Ee6nxts5fEGlrQ" base_Element="_48ZAIDq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_48fGwDq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_48xaoDq7Ee6nxts5fEGlrQ" base_Element="_48wMgDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_48yowDq7Ee6nxts5fEGlrQ" base_Element="_48wMgDq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_48yowTq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_48_dEDq7Ee6nxts5fEGlrQ" base_Element="_48-O8Dq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_49BSQDq7Ee6nxts5fEGlrQ" base_Element="_48-O8Dq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_49BSQTq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_49JOEDq7Ee6nxts5fEGlrQ" base_Element="_49GKwDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_49OtoDq7Ee6nxts5fEGlrQ" base_Element="_49GKwDq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_49P7wDq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_49d-MDq7Ee6nxts5fEGlrQ" base_Element="_49cwEDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Annotations xmi:id="_49fMUDq7Ee6nxts5fEGlrQ" base_Element="_49cwEDq7Ee6nxts5fEGlrQ">
+    <annotations xmi:id="_49fMUTq7Ee6nxts5fEGlrQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5A4ekDq7Ee6nxts5fEGlrQ" base_Element="_5AwiwDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Reference xmi:id="_5A9XEDq7Ee6nxts5fEGlrQ" base_Element="_5A5FoDq7Ee6nxts5fEGlrQ"/>
+  <UMLLabProfile:Reference xmi:id="_5BHIEDq7Ee6nxts5fEGlrQ" base_Element="_5A-lMDq7Ee6nxts5fEGlrQ"/>
+</xmi:XMI>
